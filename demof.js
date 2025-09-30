@@ -24,9 +24,10 @@
       try {
         if (!birthYear) throw " Fill all the fields completely!";
         let currentYear = parseInt(new Date().getFullYear());
-         let birthYear = parseInt(document.getElementById("birthYear").value.trim());
+         birthYear = parseInt(document.getElementById("birthYear").value.trim());
+         Year=parseInt(birthYear);
         // let age = currentYear - birthYear;
-        let age = currentYear - birthYear;
+        let age = currentYear - Year;
 
         let eligibility = (age >= 18) ? "Eligible (18+)" : "Not eligible to access this website!!(age<18)";
         document.getElementById("ageOutput").innerText =

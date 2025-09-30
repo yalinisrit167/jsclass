@@ -4,7 +4,7 @@
 }
 .section{
     
-    
+    padding-left: 20px;
     margin: 15px;
     border-radius: 10px;
     box-shadow: inset;
@@ -15,4 +15,7 @@
 }
 .section{
     margin-top: 20px;
+}
+#button:hover{
+    background-color: #ef56c7;
 }
