@@ -1,0 +1,18 @@
+.header{
+    text-align: center;
+    font-size: xx-large;
+}
+.section{
+    
+    
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset;
+    background: #ebc9d7;
+}
+#button{
+    background-color: rgb(248, 175, 200);
+}
+.section{
+    margin-top: 20px;
+}
